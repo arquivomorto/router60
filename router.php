@@ -1,7 +1,7 @@
 <?php
 //Criado pelo @hackergaucho
 return function ($routes, $domain = false) {
-    $segment=function ($segmentId = null, $domain = false) {
+    $segment=function ($segment_id = null, $domain = false) {
         $str=$_SERVER["REQUEST_URI"];
         if ($domain) {
             $path=parse_url($domain, PHP_URL_PATH);
@@ -19,11 +19,11 @@ return function ($routes, $domain = false) {
                 $segment[$i++]=$value;
             }
         }
-        if (is_null($segmentId)) {
+        if (is_null($segment_id)) {
             return $segment;
         } else {
-            if (isset($segment[$segmentId])) {
-                return $segment[$segmentId];
+            if (isset($segment[$segment_id])) {
+                return $segment[$segment_id];
             } else {
                 return false;
             }
@@ -35,7 +35,7 @@ return function ($routes, $domain = false) {
         $route_name=$routes['*'];
     } else {
         http_response_code(404);
-        die('route not found');
+        die('not found');
     }
     $route=function ($options, $segment, $domain) {
         if (isset($options['c'])) {
