@@ -1,5 +1,5 @@
 <?php
-//Criado pelo @hackergaucho
+//https://github.com/hackergaucho/routercv
 return function ($routes, $domain = false) {
     $segment=function ($segment_id = null, $domain = false) {
         $str=$_SERVER["REQUEST_URI"];
