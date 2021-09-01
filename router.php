@@ -35,7 +35,7 @@ return function ($routes, $domain = false) {
         $route_name=$routes['*'];
     } else {
         http_response_code(404);
-        die('not found');
+        die('route not found');
     }
     $route=function ($options, $segment, $domain) {
         if (isset($options['c'])) {
