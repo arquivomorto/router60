@@ -10,7 +10,7 @@ RouterCV é um roteador simples em PHP com apenas [60 linhas de código](https:/
 wget https://tinyurl.com/routercv -O router.php
 ```
 
-2) Incorpore no código & defina as rotas
+2) Incorpore no código & defina as rotas no "index.php"
 
 ```php
 <?php
