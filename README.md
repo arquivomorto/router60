@@ -59,6 +59,8 @@ require '../index.php';
 
 Nesse caso o arquivo "exemplo/index.php" serve como um bypass em servidores ou diretórios que não suportam a reescrita de URL.
 
+## Reescrita de URLs
+
 Caso o servidor Apache suporte a reescrita de URLs basta adicionar um arquivo .htaccess na raiz do site com o seguinte código:
 
 ```apache
