@@ -36,16 +36,16 @@ $router($rotas,'http://localhost/site');
 
 É importante definir o domínio/url da raíz do site, assim o RouterCV pode rodar corretamente mesmo estando dentro de um diretório qualquer.
 
-### 3) Crie o controller/index.php (opcional)
+### 3) Crie o controller "c/index.php" (opcional)
 
 ```php
 <?php
 return [
-    'msg'=>$request_method.' '.$segment(1, $domain)    
+    'msg'=>$request_method.' '.$segment(1, $domain)
 ];
 ```
 
-### 4) Crie a view/index.php (opcional)
+### 4) Crie a view "v/index.php" (opcional)
 
 ```php
 <?php
