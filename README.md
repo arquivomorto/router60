@@ -1,5 +1,5 @@
 <p align="center">
-<img src="logo.png" width="150" height="150">
+<img src="router60.png" width="150" height="150">
 </p>
 
 # Sobre o Router60
