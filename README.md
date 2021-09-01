@@ -50,7 +50,7 @@ return [
 print $msg;
 ```
 
-5) Cria o exemplo/index.php
+5) Crie o "exemplo/index.php"
 
 ```php
 <?php
