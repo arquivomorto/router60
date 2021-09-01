@@ -34,7 +34,7 @@ $rotas=[
 $router($rotas,'http://localhost/site');
 ```
 
-É importante definir o domínio, assim o RouterCV pode rodar corretamente mesmo estando dentro de um diretório qualquer.
+É importante definir o domínio/url da raíz do site, assim o RouterCV pode rodar corretamente mesmo estando dentro de um diretório qualquer.
 
 ### 3) Crie o controller/index.php (opcional)
 
