@@ -1,5 +1,5 @@
 <?php
-//router v1.0.1
+//Criado pelo @hackergaucho
 return function ($routes, $domain = false) {
     $segment=function ($segmentId = null, $domain = false) {
         $str=$_SERVER["REQUEST_URI"];
@@ -58,4 +58,3 @@ return function ($routes, $domain = false) {
     };
     return $route($route_name, $segment, $domain);
 };
-
