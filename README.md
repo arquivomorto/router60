@@ -7,7 +7,7 @@ RouterCV é um roteador PHP simples com apenas 60 linhas de código.
 ### 1) Faça o download do script
 
 ```bash
-wget https://tinyurl.com/routercv
+wget https://tinyurl.com/routercv -O router.php
 ```
 
 É necessário baixá-lo na raiz do site.
