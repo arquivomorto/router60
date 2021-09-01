@@ -4,13 +4,11 @@ RouterCV é um roteador simples em PHP com apenas [60 linhas de código](https:/
 
 ## Instalação & utilização
 
-1) Faça o download do script
+1) Faça o download do script na raiz do site
 
 ```bash
 wget https://tinyurl.com/routercv -O router.php
 ```
-
-É necessário baixá-lo na raiz do site.
 
 2) Incorpore no código & defina as rotas
 
@@ -59,7 +57,7 @@ print $msg;
 require '../index.php';
 ```
 
-Esse arquivo serve como um bypass em servidores ou diretórios que não suportam a reescrita de URL.
+Nesse caso o arquivo "exemplo/index.php" serve como um bypass em servidores ou diretórios que não suportam a reescrita de URL.
 
 Caso o servidor Apache suporte a reescrita de URLs basta adicionar um arquivo .htaccess na raiz do site com o seguinte código:
 
