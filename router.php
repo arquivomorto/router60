@@ -1,5 +1,5 @@
 <?php
-//https://github.com/hackergaucho/routercv
+//wget https://raw.githubusercontent.com/hackergaucho/router60/master/router.php
 return function ($routes, $domain = false) {
     $segment=function ($segment_id = null, $domain = false) {
         $str=$_SERVER["REQUEST_URI"];
