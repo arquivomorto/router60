@@ -32,7 +32,7 @@ $rotas=[
 $router($rotas,'http://localhost/site');
 ```
 
-Definindo o domínio/url da raíz do site o RouterCV pode rodar corretamente mesmo dentro de um subdiretório.
+Definindo o domínio/url do site o RouterCV pode rodar corretamente mesmo dentro de um subdiretório.
 
 3) Crie o controller "c/index.php" (opcional)
 
