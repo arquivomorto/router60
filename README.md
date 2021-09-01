@@ -4,7 +4,7 @@ RouterCV é um roteador simples em PHP com apenas [60 linhas de código](https:/
 
 ## Instalação & utilização
 
-### 1) Faça o download do script
+1) Faça o download do script
 
 ```bash
 wget https://tinyurl.com/routercv -O router.php
@@ -12,7 +12,7 @@ wget https://tinyurl.com/routercv -O router.php
 
 É necessário baixá-lo na raiz do site.
 
-### 2) Incorpore no código & defina as rotas
+2) Incorpore no código & defina as rotas
 
 ```php
 <?php
@@ -36,7 +36,7 @@ $router($rotas,'http://localhost/site');
 
 É importante definir o domínio/url da raíz do site, assim o RouterCV pode rodar corretamente mesmo estando dentro de um diretório qualquer.
 
-### 3) Crie o controller "c/index.php" (opcional)
+3) Crie o controller "c/index.php" (opcional)
 
 ```php
 <?php
@@ -45,14 +45,14 @@ return [
 ];
 ```
 
-### 4) Crie a view "v/index.php" (opcional)
+4) Crie a view "v/index.php" (opcional)
 
 ```php
 <?php
 print $msg;
 ```
 
-### 5) Cria o exemplo/index.php
+5) Cria o exemplo/index.php
 
 ```php
 <?php
