@@ -1,6 +1,6 @@
 # RouterCV
 
-RouterCV é um roteador PHP simples com apenas 60 linhas de código.
+RouterCV é um roteador simples em PHP com apenas 60 linhas de código.
 
 ## Instalação & utilização
 
