@@ -1,5 +1,5 @@
 <?php
-//router v1.0.0
+//router v1.0.1
 return function ($routes, $domain = false) {
     $segment=function ($segmentId = null, $domain = false) {
         $str=$_SERVER["REQUEST_URI"];
@@ -51,7 +51,7 @@ return function ($routes, $domain = false) {
         if (isset($options['v'])) {
             $view=function ($data, $view) {
                 extract($data);
-                return require __DIR__.'/v'.$view.'.php';
+                return require __DIR__.'/v/'.$view.'.php';
             };
             $view($data, $options['v']);
         }
