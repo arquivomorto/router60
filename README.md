@@ -1,13 +1,15 @@
-# RouterCV
+# Router60
 
-RouterCV é um roteador simples (apenas [60 linhas](https://github.com/hackergaucho/routercv/blob/master/router.php) de código) em PHP.
+<center><img src="logo.png"></center>
+
+Router60 é um roteador simples (apenas [60 linhas](https://github.com/hackergaucho/routercv/blob/master/router.php) de código) em PHP.
 
 ## Instalação & utilização
 
 1) Faça o download do script na raiz do site
 
 ```bash
-wget https://tinyurl.com/routercv -O router.php
+wget https://raw.githubusercontent.com/hackergaucho/router60/master/router.php
 ```
 
 2) Incorpore no código & defina as rotas no "index.php"
