@@ -1,6 +1,8 @@
 # Router60
 
-<center><img src="logo.png"></center>
+<div style="align:center">
+<img src="logo.png" width="200" height="200">
+</div>
 
 Router60 é um roteador simples (apenas [60 linhas](https://github.com/hackergaucho/routercv/blob/master/router.php) de código) em PHP.
 
