@@ -32,7 +32,7 @@ $rotas=[
         'c'=>'exemplo',
         'v'=>'exemplo'
     ],
-]
+];
 $router($rotas, 'http://localhost/site');
 ```
 
