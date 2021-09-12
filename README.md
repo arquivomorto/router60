@@ -21,19 +21,19 @@ wget https://raw.githubusercontent.com/hackergaucho/router60/master/router.php
 $router=require 'router.php';
 $rotas=[
     '/'=>[//raiz do site
-        'c'=>'exemplo'
+        'c'=>'exemplo',
         'v'=>'exemplo'
     ],
     'exemplo'=>[
-        'c'=>'exemplo'
+        'c'=>'exemplo',
         'v'=>'exemplo'
     ],
     '*'=>[//qualquer outra rota
-        'c'=>'exemplo'
+        'c'=>'exemplo',
         'v'=>'exemplo'
     ],
 ]
-$router($rotas,'http://localhost/site');
+$router($rotas, 'http://localhost/site');
 ```
 
 Definindo o domínio/url do site o RouterCV pode rodar corretamente mesmo dentro de um subdiretório.
